@@ -4,8 +4,9 @@
 // Development builds send nothing unless VITE_DATABUDDY_DEV=1.
 import { createScript, isScriptInjected, track as dbTrack, trackError as dbTrackError, setGlobalProperties, identify, setTraits, clearProfile, flush } from '@databuddy/sdk';
 
-const CLIENT_ID = import.meta.env.VITE_DATABUDDY_CLIENT_ID || '633246a8-d110-49eb-8b26-83214f977222';
-const ON = !import.meta.env.DEV || import.meta.env.VITE_DATABUDDY_DEV === '1';
+// Analytics stays fully off—not even a script is loaded—until VITE_DATABUDDY_CLIENT_ID names our own site.
+const CLIENT_ID = (import.meta.env.VITE_DATABUDDY_CLIENT_ID as string | undefined) ?? '';
+const ON = !!CLIENT_ID && (!import.meta.env.DEV || import.meta.env.VITE_DATABUDDY_DEV === '1');
 declare const __BUILD__: string;
 
 type Method = 'rod' | 'net' | 'deckhand' | 'pots';
