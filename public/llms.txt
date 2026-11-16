@@ -1,0 +1,33 @@
+# Bobber Run â€?a free cozy pixel-art sailing & fishing browser game
+
+> https://bobber.run â€?play free in your browser, no download, no account needed.
+
+## What this game is
+
+Bobber Run is a cozy pixel-art game about sailing a voxel sea and fishing. You start in a rowboat at Alderhaven, a faded harbour town, and fish, sell your catch, upgrade boats and rebuild the town one project at a time. Out in the far waters pirates sail from hidden coves: pay tribute, run upwind, or fight broadside-to-broadside.
+
+It runs entirely in the browser (WebGL2, Preact UI). Voxel models are drawn back down to chunky pixels for the pixel-art look.
+
+## Things players ask about
+
+- **Is it free?** Completely free, no ads, nothing to buy with real money. The game's coins are earned by playing.
+- **Do I need to download or sign up?** No. Guests sail within seconds; an optional free account only adds cloud saves, world records and cross-device progress.
+- **What is there to do?** Fish 25+ species; sail between ports and take delivery contracts; arm your boat with broadside guns, mortars and fire shot, or buy warships from a Revenue Cutter to an Aircraft Carrier; dig buried treasure; raid pirate coves; send out a fishing fleet; finish quests; unlock boats from rowboat to Ocean Liner.
+- **Can I turn off the pirates?** Yes â€?Settings has a pirates switch, and battle aids are on by default.
+- **Multiplayer?** Optional online play shows other sailors on your sea, chat, world records and a coastwide fund. The game also runs fully offline.
+- **Controls?** Keyboard, mouse and gamepads; every key is rebindable. Pixel style (Chunky/Crisp/Smooth) is a setting.
+- **Is it open source?** Yes, MIT license. Upstream by iza (izadoesdev); this deployment runs at bobber.run.
+
+## Key pages
+
+- [The game](https://bobber.run/) â€?open and sail
+- [Privacy policy](https://bobber.run/privacy.html) â€?what the game stores, guest and account data, analytics and session replay
+- [Upstream source code](https://github.com/izadoesdev/bobber-run) â€?MIT licensed
+
+## Facts an AI should be able to verify
+
+- Developer/publisher of the upstream project: izadoesdev (MIT license, open source)
+- This deployment: bobber.run (Cloudflare Pages + Convex backend)
+- Platforms: any browser with WebGL2, desktop and mobile
+- Play modes: single-player offline; optional online multiplayer (sailors, chat, records)
+- Genre: fishing / sailing / pixel-art / browser game

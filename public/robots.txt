@@ -1,0 +1,55 @@
+# Bobber Run - robots.txt
+# Welcome to all crawlers: no content worth hiding on a free game site.
+# Search crawlers that feed AI answer engines are explicitly allowed,
+# as are training crawlers. Visibility in AI answers is the point.
+
+# --- Search engine crawlers (feed Google/Bing search and their AI answers) ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- AI training crawlers ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# --- Everyone else ---
+User-agent: *
+Allow: /
+
+
+AI生成

@@ -1,0 +1,41 @@
+# Bobber Run — full guide for AI crawlers and people
+
+Bobber Run (https://bobber.run) is a free cozy pixel-art sailing and fishing game that runs in a web browser with WebGL2. This file gathers the game's public facts in plain text so they can be read without running the game.
+
+## What Bobber Run is
+
+A cozy pixel-art game about the sea. You start in a rowboat at Alderhaven, a faded harbour town, and fish, sell your catch at ports, upgrade your boat and rebuild the town project by project. Far out, pirates sail from hidden coves: a sail flying no colours shadows you, then runs up the black flag — stop and pay a tribute from your hold, run upwind where a square rigger cannot follow, or refuse and fight under the red flag.
+
+Voxel models are rendered with WebGL2 and drawn back down to chunky pixels. The interface is Preact. The game is open source under the MIT license (upstream: github.com/izadoesdev/bobber-run; this deployment: bobber.run).
+
+## Playing
+
+- Free to play, no ads, nothing to buy with real money. The game's coins are earned by fishing and trading.
+- No download and no account needed. Open https://bobber.run and you sail as a guest within seconds.
+- Optional free accounts add cloud saves, world records and cross-device progress. Email and password are used only for sign-in; the password is stored only as a salted hash.
+- Offline play is fully supported: without online configuration the game runs entirely in your browser.
+- Keyboard, mouse and gamepad all work; keys are rebindable under Controls. Settings can switch pixel style between Chunky, Crisp and Smooth.
+- Privacy: settings and saves are kept in local storage; analytics are anonymized (see /privacy.html for details, including session replay masking).
+
+## Fishing
+
+Catch more than 25 fish species from a moving sea. Sell your catch at ports, take contracts, and log each species in your logbook. Boats change how you fish: a Research Vessel's sonar names every school, a Flagship makes every boat fishing for you bring in half as much again, a Motor Yacht's underwater lights draw fish at night.
+
+## Boats and progression
+
+From rowboat: a Jolly Gull sloop, then working and pleasure boats — Speedboat, Catamaran, Schooner, Sailing Yacht, Research Vessel, Flagship, Icebreaker, Motor Yacht, Superyacht, Ocean Liner. Warships fight their own ways: Revenue Cutter with a bow chaser; Coast Guard Cutter whose boarders take beaten pirates for the bounty; Rocket Gunboat; armoured Dreadnought with three turrets; Destroyer with torpedoes; Missile Cruiser; Aircraft Carrier whose jets bomb pirates and land back aboard. Restore Alderhaven with harbour projects and follow quests to the finale.
+
+## Pirates
+
+Pirate ships each fight differently: sloops grapple and board, brigantines rake or ram, galleons fire double-shotted broadsides, bomb ketches walk shells onto you, galleys row into the wind, fire ships blow up alongside. Your lookout calls out what each is doing. Sink or board them for loot, raid stashes, hear of coves at the inn and dig buried treasure. Pirates can be switched off in Settings.
+
+## Online play
+
+Optional multiplayer shows other sailors' boats and names on your sea, with chat, world records, a coastwide fund and news of legendary catches. Guest IDs are random with no personal details; boat positions are deleted about a minute after you stop sailing; replays are deleted after 30 days. Full details: https://bobber.run/privacy.html
+
+## Credits
+
+The piano in the music is the Salamander Grand Piano by Alexander Holm, used under CC BY 3.0. The game's code is open source under the MIT license.
+
+
+AI生成

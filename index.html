@@ -4,28 +4,72 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1b2a33">
-<title>Bobber Run</title>
-<meta name="description" content="A cozy pixel-art sailing and fishing game in your browser. Fish, sell, upgrade your boat and restore the harbour town of Alderhaven.">
+<title>Bobber Run — a free cozy pixel-art sailing &amp; fishing browser game</title>
+<meta name="description" content="Bobber Run is a free pixel-art browser game: sail a voxel sea, fish 25+ species, sell your catch, upgrade from rowboat to fleet, restore the harbour town of Alderhaven and meet other sailors online. No download, no account needed.">
 <!-- how shared links unfurl in chats and social apps -->
-<meta property="og:title" content="Bobber Run">
-<meta property="og:description" content="A cozy pixel-art sailing and fishing game in your browser. Sail, fish and share the sea with other sailors.">
+<meta property="og:title" content="Bobber Run — cozy pixel-art sailing &amp; fishing game">
+<meta property="og:description" content="Sail, fish and trade in a free browser game with pirates, buried treasure, 25+ fish species and a fleet of boats to unlock. Restore Alderhaven and share the sea with other sailors.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://bobber.databuddy.cc/">
+<meta property="og:url" content="https://bobber.run/">
 <meta property="og:site_name" content="Bobber Run">
-<meta property="og:image" content="https://bobber.databuddy.cc/og.jpg">
+<meta property="og:image" content="https://bobber.run/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="A rowboat beside a school of fish off a pixel-art harbour town">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Bobber Run">
-<meta name="twitter:description" content="A cozy pixel-art sailing and fishing game in your browser.">
-<meta name="twitter:image" content="https://bobber.databuddy.cc/og.jpg">
+<meta name="twitter:title" content="Bobber Run — cozy pixel-art sailing &amp; fishing game">
+<meta name="twitter:description" content="A free pixel-art browser game: sail, fish, trade, fight pirates and restore a harbour town. No download needed.">
+<meta name="twitter:image" content="https://bobber.run/og.jpg">
+<!-- structured facts for search engines and AI answer engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoGame",
+      "name": "Bobber Run",
+      "url": "https://bobber.run/",
+      "image": "https://bobber.run/og.jpg",
+      "description": "A cozy pixel-art sailing and fishing game in the browser. Fish, sell your catch, upgrade your boat and restore the harbour town of Alderhaven. Out in the far waters pirates sail from hidden coves: pay tribute, run or fight. Play free, no download.",
+      "genre": ["Fishing", "Sailing", "Pixel art", "Browser game"],
+      "gamePlatform": "Web browser (WebGL2)",
+      "playMode": ["SinglePlayer", "MultiPlayer"],
+      "applicationCategory": "Game",
+      "operatingSystem": "Any (web browser)",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "sameAs": ["https://github.com/hhwjsw711/bobber-run"],
+      "publisher": { "@type": "Organization", "name": "Bobber Run", "url": "https://bobber.run/" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is Bobber Run?",
+          "acceptedAnswer": { "@type": "Answer", "text": "A free cozy pixel-art sailing and fishing game that runs in your web browser. Sail a voxel sea, catch 25+ fish species, sell your catch, upgrade boats and restore the harbour town of Alderhaven. Online play adds other sailors, chat, world records and cloud saves." } },
+        { "@type": "Question", "name": "Is Bobber Run free?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Bobber Run is completely free to play with no ads and nothing to buy with real money. Optional accounts exist only to keep your save across devices." } },
+        { "@type": "Question", "name": "Do I need to download or sign up to play?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No download and no account needed: open https://bobber.run and you are sailing as a guest within seconds. Create an account only if you want cloud saves, world records and cross-device progress." } },
+        { "@type": "Question", "name": "What can you do besides fishing?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sail between ports, take delivery contracts, fight or flee pirates, dig buried treasure, raid coves, send out a fishing fleet, finish quests and unlock boats from rowboat through schooners and warships up to an ocean liner." } },
+        { "@type": "Question", "name": "What devices can run it?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Any modern desktop or mobile browser with WebGL2. Keyboard, mouse and gamepads all work; controls are rebindable." } }
+      ]
+    }
+  ]
+}
+</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/nunito-sans-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/fraunces-latin-600.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/jersey-10-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
+<noscript>
+  <h1>Bobber Run</h1>
+  <p>Bobber Run is a free cozy pixel-art sailing and fishing game that runs in your browser. This page needs JavaScript (WebGL2) to load the game.</p>
+  <p>In the game you sail a voxel sea, catch more than 25 fish species, sell your catch at ports, upgrade from a rowboat to a fleet of working boats and warships, fight or flee pirates, dig up buried treasure and help restore the harbour town of Alderhaven. Optional online play adds other sailors, chat, world records and cloud saves. No download, no account required — open <a href="https://bobber.run/">https://bobber.run/</a> and sail.</p>
+</noscript>
 <div id="stage"><canvas id="screen"></canvas><div id="ui"></div></div>
 <script type="module" src="/src/main.ts"></script>
 </body>
