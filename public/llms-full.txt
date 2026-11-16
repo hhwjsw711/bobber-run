@@ -36,6 +36,3 @@ Optional multiplayer shows other sailors' boats and names on your sea, with chat
 ## Credits
 
 The piano in the music is the Salamander Grand Piano by Alexander Holm, used under CC BY 3.0. The game's code is open source under the MIT license.
-
-
-AI生成

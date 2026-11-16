@@ -50,6 +50,3 @@ Allow: /
 # --- Everyone else ---
 User-agent: *
 Allow: /
-
-
-AI生成
